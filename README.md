@@ -10,7 +10,7 @@
 
 ## Live Demo (if available)
 
-[click here](https://skyv26.github.io/linktree-profile/)
+[Netlify Deployed Click](https://linter-skyv.netlify.app/)
 
 ## Getting Started
 
