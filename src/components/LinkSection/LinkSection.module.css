@@ -1,0 +1,25 @@
+.LinkSection {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  list-style: none;
+}
+
+.List {
+  width: 100%;
+}
+
+.Link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 2.4rem 3.2rem;
+  font-size: 1.4rem;
+  border-radius: 8px;
+  font-weight: 500;
+  background: #EAECF0;
+  color: #101828;
+}

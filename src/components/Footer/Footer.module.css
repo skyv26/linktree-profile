@@ -1,0 +1,63 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2.5rem;
+  padding: 3.5rem 0 2rem 0;
+  border-top: 1px solid rgba(234, 236, 240, 1);
+  gap: 1rem;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.Link {
+  text-decoration: none;
+  position: relative;
+}
+
+.Dot {
+  position: absolute;
+  left: 5.1rem;
+  top: 50%;
+}
+
+.Text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgba(102, 112, 133, 1);
+}
+
+@media (min-width: 768px) {
+  .Footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .Content {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .Image {
+    display: inline-block;
+    width: 15rem;
+  }
+
+  .Dot {
+    position: absolute;
+    left: 4rem;
+    top: 44%;
+  }
+
+  .Text {
+    font-size: 1.25rem;
+  }
+}

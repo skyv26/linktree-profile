@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ProfileSection from './components/ProfileSection/ProfileSection';
+import LinkSection from './components/LinkSection/LinkSection';
+import SocialSection from './components/SocialSection/SocialSection';
+import Footer from './components/Footer/Footer';
 
-function App() {
+const App = props => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ProfileSection />
+      <LinkSection />
+      <SocialSection />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
