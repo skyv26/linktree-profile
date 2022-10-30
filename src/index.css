@@ -19,3 +19,9 @@ body {
   padding: 2rem 1.6rem;
   min-height: 100vh;
 }
+
+@media (min-width: 768px) {
+  body {
+    padding: 3rem 9.4rem;
+  }
+}

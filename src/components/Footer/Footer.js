@@ -8,14 +8,16 @@ const Footer = props => {
   return (
     <footer className={style.Footer}>
       <hr className={style.Line} />
-      <a href="https://github.com/skyv26" className={style.Link} rel="noreferrer noopenner" target="_blank">
-        <img src={Zuri} className={style.Image} alt="Let's connect on slack" />
-        <img src={Dot} className={`${style.Dot}`} alt="" />
-      </a>
-      <p className={style.Text}>HNG Internship 9 Frontend Task</p>
-      <a href="https://github.com/skyv26" className={style.Link} rel="noreferrer noopenner" target="_blank">
-        <img src={I4G} className={style.Image} alt="Let's connect on slack" />
-      </a>
+      <div className={style.Content}>
+        <a href="https://github.com/skyv26" className={style.Link} rel="noreferrer noopenner" target="_blank">
+          <img src={Zuri} className={style.Image} alt="Let's connect on slack" />
+          <img src={Dot} className={`${style.Dot}`} alt="" />
+        </a>
+        <p className={style.Text}>HNG Internship 9 Frontend Task</p>
+        <a href="https://github.com/skyv26" className={style.Link} rel="noreferrer noopenner" target="_blank">
+          <img src={I4G} className={style.Image} alt="Let's connect on slack" />
+        </a>
+      </div>
     </footer>
   );
 };
