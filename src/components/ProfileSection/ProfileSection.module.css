@@ -1,0 +1,12 @@
+.ProfileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Picture {
+  display: inline-block;
+  width: 8.8rem;
+  height: 8.8rem;
+}
