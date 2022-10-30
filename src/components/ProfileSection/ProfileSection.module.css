@@ -4,11 +4,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 1.6rem;
+  margin-top: 1rem;
 }
 
 .Picture {
   display: inline-block;
-  width: 5.8rem;
-  height: 5.8rem;
+  width: 8.8rem;
+  height: 8.8rem;
   border-radius: 50%;
+}
+
+.ProfileLink {
+  text-decoration: none;
+  color: #101828;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.ShouldNotVisible {
+  visibility: hidden;
 }
