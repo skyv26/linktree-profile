@@ -5,7 +5,7 @@ const LinkSection = props => {
   return (
     <ul className={style.LinkSection}>
       <li className={style.List}>
-        <a href="https://twitter.com/vrma_aakash" id="twitter" className={style.Link} rel="noreferrer noopenner" target="_blank">Twitter Link</a>
+        <a href="https://twitter.com/vrma_aakash" id="twitter__link" className={style.Link} rel="noreferrer noopenner" target="_blank">Twitter Link</a>
       </li>
       <li className={style.List}>
         <a href="https://training.zuri.team/" id="btn__zuri" className={style.Link} rel="noreferrer noopenner" target="_blank">Zuri Team</a>
