@@ -1,18 +1,17 @@
 import React from 'react';
 import { Route, Routes, Navigate } from 'react-router-dom';
-import ProfileSection from './components/ProfileSection/ProfileSection';
-import LinkSection from './components/LinkSection/LinkSection';
-import SocialSection from './components/SocialSection/SocialSection';
+import Home from './pages/Home/Home';
 import Footer from './components/Footer/Footer';
 import Contact from './pages/Contact/Contact';
 
 const App = props => {
   return (
     <div>
-      <ProfileSection />
-      <LinkSection />
-      <SocialSection />
-      <Contact />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/category" element={<Contact />} />
+        <Route path="/" element={<Navigate replace to="/home" />} />
+      </Routes>
       <Footer />
     </div>
   );
