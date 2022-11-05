@@ -1,0 +1,23 @@
+.form-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: rgba(52, 64, 84, 1);
+}
+
+.form-input {
+  padding: 1rem 1.4rem;
+  border: 1px solid rgba(208, 213, 221, 1);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.input-msg {
+  font-size: 1rem;
+  color: rgba(248, 63, 35, 1);
+  font-weight: 500;
+}
