@@ -40,6 +40,7 @@
   font-size: 1.4rem;
   color: rgba(52, 64, 84, 1);
   position: relative;
+  width: 100%;
 }
 
 .form-input {
@@ -48,6 +49,12 @@
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 1);
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  width: 100%;
+  line-height: 1.6;
+}
+
+.form-input::placeholder {
+  color: #667085;
 }
 
 .input-msg {
@@ -61,4 +68,30 @@
 .form-input.danger {
   border-color: rgba(248, 63, 35, 1);
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #FFD3CC;
+}
+
+.checkbox-label {
+  flex-direction: row;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #667085;
+  line-height: 1.5;
+}
+
+.form-checkbox--input {
+  padding: unset;
+  display: inline-block;
+  width: 2em;
+  height: 2rem;
+}
+
+.form-btn {
+  border: 1px solid rgba(21, 112, 239, 1);
+  background-color: rgba(21, 112, 239, 1);
+  color: white;
+  padding: 1.2rem 2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 8px;
 }
