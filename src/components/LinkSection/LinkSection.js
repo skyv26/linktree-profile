@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import style from './LinkSection.module.css';
 
 const LinkSection = props => {
@@ -21,6 +22,9 @@ const LinkSection = props => {
       </li>
       <li className={style.List}>
         <a href="https://books.zuri.team/design-rules" className={style.Link} id="book__design" rel="noreferrer noopenner" target="_blank">Design Books</a>
+      </li>
+      <li className={style.List}>
+        <NavLink to="/contact" className={style.Link}>Contact Me</NavLink>
       </li>
     </ul>
   );
