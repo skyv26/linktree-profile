@@ -9,11 +9,19 @@ const Contact = props => {
         <p className="contact-form--info_desc">Hi there, contact me to ask me about anything you have in mind.</p>
       </div>
       <form className='form'>
+        
         <label htmlFor="first_name" className="form-label">
           First Name
           <input type="text" id='first_name' placeholder="Enter your first name" className="form-input" />
-          <p className="input-msg first_name">Please enter a message</p>
+          <p className="input-msg first_name">Please enter your first name</p>
         </label>
+
+        <label htmlFor="last_name" className="form-label">
+          Last Name
+          <input type="text" id='last_name' placeholder="Enter your last name" className="form-input" />
+          <p className="input-msg last_name">Please enter your last name</p>
+        </label>
+
       </form>
     </div>
   );
