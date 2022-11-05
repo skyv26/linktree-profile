@@ -9,7 +9,7 @@ const App = props => {
     <div>
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/category" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/" element={<Navigate replace to="/home" />} />
       </Routes>
       <Footer />
