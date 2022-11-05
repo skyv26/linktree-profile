@@ -3,13 +3,15 @@ import ProfileSection from './components/ProfileSection/ProfileSection';
 import LinkSection from './components/LinkSection/LinkSection';
 import SocialSection from './components/SocialSection/SocialSection';
 import Footer from './components/Footer/Footer';
+import Contact from './pages/Contact/Contact';
 
 const App = props => {
   return (
     <div>
-      <ProfileSection />
-      <LinkSection />
-      <SocialSection />
+      {/* <ProfileSection /> */}
+      {/* <LinkSection />
+      <SocialSection /> */}
+      <Contact />
       <Footer />
     </div>
   );
