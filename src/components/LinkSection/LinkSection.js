@@ -24,7 +24,7 @@ const LinkSection = props => {
         <a href="https://books.zuri.team/design-rules" className={style.Link} id="book__design" rel="noreferrer noopenner" target="_blank">Design Books</a>
       </li>
       <li className={style.List}>
-        <NavLink to="/contact" className={style.Link}>Contact Me</NavLink>
+        <NavLink to="/contact" id="contact" className={style.Link}>Contact Me</NavLink>
       </li>
     </ul>
   );
