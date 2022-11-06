@@ -8,9 +8,9 @@ const App = props => {
   return (
     <div>
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/" element={<Navigate replace to="/home" />} />
+ 
       </Routes>
       <Footer />
     </div>
